@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Tokens and Types</title>
+        <script src="function2.js"></script>
+        <style>
+            *{
+                text-align: center;
+            }
+            table{
+                display: none;
+            }
+            #text{
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <select id="corpus_select" onchange="showCorpus()">
+            <option value="">---Select---</option>
+            <option value="1">C1</option>
+            <option value="2">C2</option>
+            <option value="3">C3</option>
+        </select>
+        <p id="corpus"></p>
+        <span id="text">Enter the correct number of tokens and types from the corpus</span><br><br>
+        <table id="table" border="1">
+            <tr>
+                <td>#tokens:</td>
+                <td><input type="text" id="tokens"></td>
+            </tr>
+            <tr>
+                <td>#types:</td>
+                <td><input type="text" id="types"></td>
+            </tr>
+        </table>
+    </body>
+</html>

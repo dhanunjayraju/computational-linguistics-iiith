@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tokens</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<style>
+             td {
+            width: 70px;
+        }
+
+        table {
+            margin: 0 auto;
+            width: 30%;
+        }
+
+        #line1 {
+            margin: 0 auto;
+            width: 70%;
+            text-align: center;
+        }
+
+        #placeButton1 {
+            text-align: center;
+        }
+
+        #correct1 {
+            text-align: center;
+        }
+
+        #wrong1 {
+            text-align: center;
+        }
+
+        #placeButton2 {
+            text-align: center;
+        }
+
+        #finalText {
+            text-align: center;
+        }
+
+        #finalT {
+            text-align: center;
+        }
+
+        #newTypes {
+            display: inline-bold;
+        }
+
+        #finall {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #placeButton3 {
+            text-align: center;
+
+        }
+
+        #selec {
+            text-align: center;
+
+        }
+
+        #corpuses {
+            text-align: center;
+        }
+
+        #correct2 {
+            text-align: center;
+        }
+        #wrong{
+            text-align: center;
+        }
+        #wrong2{
+            text-align: center;
+        }
+    </style>
+       
+</head>
+
+<body class="container-md ">
+    <br>
+    <div id="selec" class=" justify-content-center mx-auto"></div>
+    <select name="selection" id="corpuses" onchange="selection()" class=" justify-content-center mx-auto justify-content: space-between;
+    align-items: center;">
+        <option value="selectCorpus">---SelectCorpus---</option>
+        <option value="Corpus1" id="Corpus1">C1</option>
+        <option value="Corpus2" id="Corpus2">C2</option>
+        <option value="Corpus3" id="Corpus3">C3</option>
+    </select>
+    </div>
+    <p id="text1" class="container-md"></p>
+    <br>
+    <p id="line1" class="container-md"></p>
+    <br>
+
+    <div id="table1" style="display:none">
+        <table>
+            <tr>
+                <td class="border mx-auto">#Tokens:</td>
+                <td class="border mx-auto"> <input type="text" id="noOfTokens" name="fname" size="3"></td>
+            </tr>
+            <tr>
+                <td class="border mx-auto">#Types:</td>
+                <td class="border mx-auto"><input type="text" id="noOfTypes" name="fname" size="3"></td>
+            </tr>
+
+        </table>
+    </div>
+    <br>
+    <div id="placeButton1"></div>
+    <br>
+    <p id="correct1" class="container text-success"></p>
+    <p id="wrong" class="container text-danger"></p>
+    <div id="placeButton2"></div>
+
+
+    <p id="finalText"></p>
+    <p id="finalT"></p>
+    <div id="finall" class=" justify-content-center mx-auto">
+    </div>
+    <br>
+    <div id="placeButton3">
+
+
+
+    </div>
+    <br>
+    <p id="correct2" class="container text-success"></p>
+    <p id="wrong2" class="container text-danger"></p>
+
+    <script src="../Libraries/min.js"></script>
+    <script type="text/javascript" src="function3.js"></script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+Functionalities in unit-6 goal-1
+step:1 We have the knowledge of parts of speech in english language
+step:2 We have to use the knowledge of both unit-4,5 to do unit-6
+step:3 In the same way as we done in unit-4 select the language and then select the sentence 
+step:4 After that we have to select the each and every part of a speech of word
+step:5 And then we have to submit
+step:6 If any wrong answers are there click the show answers button to see the answer
+step:7 To hide the answer click hide button 
